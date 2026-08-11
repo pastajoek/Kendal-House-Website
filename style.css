@@ -281,3 +281,70 @@
     margin-top:36px; padding-top:22px; border-top:1px solid rgba(246,241,231,0.12);
     display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; font-size:0.8rem; color:#8B98A5;
   }
+
+  /* ---------- Steps OR / Counter block ---------- */
+  .step-or-block {
+    margin-top: 44px;
+    padding-top: 32px;
+    border-top: 1px solid rgba(19,42,78,0.14);
+    display: flex;
+    align-items: center;
+    gap: 28px;
+  }
+  @media (max-width: 760px) {
+    .step-or-block {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+    }
+  }
+  .step-or-block .or-badge {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: var(--rust);
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .step-or-block .or-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .step-or-block .or-content p {
+    margin: 0;
+    font-size: 1.05rem;
+    color: #4A4238;
+    max-width: 680px;
+    line-height: 1.5;
+  }
+  .rooms-counter {
+    background: rgba(217, 129, 46, 0.08);
+    border: 1px solid rgba(217, 129, 46, 0.25);
+    padding: 12px 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: var(--navy-deep);
+  }
+  .rooms-counter .count-num {
+    font-family: 'Fraunces', serif;
+    font-size: 2.4rem;
+    font-weight: 900;
+    color: var(--rust-deep);
+    line-height: 1;
+  }
+  .rooms-counter .count-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 1.2;
+  }
+
