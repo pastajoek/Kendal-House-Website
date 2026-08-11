@@ -322,24 +322,35 @@
     max-width: 680px;
     line-height: 1.5;
   }
-  .rooms-counter {
-    background: rgba(217, 129, 46, 0.08);
-    border: 1px solid rgba(217, 129, 46, 0.25);
-    padding: 12px 20px;
-    border-radius: 12px;
+  .counters-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .counter-card {
+    background: var(--cream);
+    border: 2px solid var(--rust);
+    box-shadow: 0 6px 18px rgba(19,42,78,0.08);
+    padding: 14px 24px;
+    border-radius: 14px;
     display: flex;
     align-items: center;
     gap: 14px;
     color: var(--navy-deep);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
-  .rooms-counter .count-num {
+  .counter-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(19,42,78,0.14);
+  }
+  .counter-card .count-num {
     font-family: 'Fraunces', serif;
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     font-weight: 900;
     color: var(--rust-deep);
     line-height: 1;
   }
-  .rooms-counter .count-label {
+  .counter-card .count-label {
     font-family: 'Inter', sans-serif;
     font-size: 0.88rem;
     font-weight: 700;
@@ -347,4 +358,11 @@
     letter-spacing: 0.05em;
     line-height: 1.2;
   }
+  .counter-card.roles {
+    border-color: var(--olive);
+  }
+  .counter-card.roles .count-num {
+    color: var(--olive-deep);
+  }
+
 
