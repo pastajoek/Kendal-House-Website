@@ -681,3 +681,12 @@
   .covenant-cta .btn:hover {
     background: #F0A050;
   }
+
+  /* ---------- Image disclaimer ---------- */
+  .image-disclaimer {
+    font-size: 0.6rem;
+    opacity: 0.4;
+    margin-top: 14px;
+    font-style: italic;
+    display: block;
+  }
