@@ -138,28 +138,20 @@
 
   /* ---------- Announcement Banner ---------- */
   .announce-banner {
-    background: var(--navy-deep);
-    color: var(--cream);
+    background: var(--rust);
     text-align: center;
-    padding: 13px 20px;
+    padding: 52px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    font-size: 0.82rem;
-    font-weight: 700;
-    font-family: 'Inter', sans-serif;
-    border-bottom: 3px solid var(--rust);
-  }
-  .announce-icon {
-    font-size: 1rem;
-    line-height: 1;
   }
   .announce-text {
-    color: #F0C48F;
-    letter-spacing: 0.14em;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: clamp(1.6rem, 4vw, 2.8rem);
+    color: var(--navy-deep);
+    letter-spacing: -0.01em;
+    line-height: 1;
   }
 
   /* ---------- Section generic ---------- */
