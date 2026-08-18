@@ -136,6 +136,32 @@
   .btn-serve{ background:var(--olive); color:var(--navy-deep); }
   .btn-serve:hover{ background:#4B6625; }
 
+  /* ---------- Announcement Banner ---------- */
+  .announce-banner {
+    background: var(--navy-deep);
+    color: var(--cream);
+    text-align: center;
+    padding: 13px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-size: 0.82rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    border-bottom: 3px solid var(--rust);
+  }
+  .announce-icon {
+    font-size: 1rem;
+    line-height: 1;
+  }
+  .announce-text {
+    color: #F0C48F;
+    letter-spacing: 0.14em;
+  }
+
   /* ---------- Section generic ---------- */
   section{ padding:96px 0; }
   @media (max-width:640px){ section{ padding:64px 0; } }
