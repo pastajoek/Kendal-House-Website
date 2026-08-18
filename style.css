@@ -92,7 +92,7 @@
   /* ---------- Hero ---------- */
   .hero{
     position:relative;
-    min-height:90vh;
+    min-height:80vh;
     display:flex; align-items:flex-end;
     overflow:hidden;
   }
@@ -111,7 +111,7 @@
   }
   .hero-content{
     position:relative; z-index:2;
-    padding:64px 32px 88px;
+    padding:64px 32px 60px;
     max-width:1180px; margin:0 auto; width:100%;
     color:var(--cream);
   }
