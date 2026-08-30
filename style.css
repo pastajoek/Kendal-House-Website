@@ -690,3 +690,45 @@
     font-style: italic;
     display: block;
   }
+
+  /* ---------- Costs & Practicalities ---------- */
+  .accom-costs {
+    background: var(--cream-dark);
+  }
+  .costs-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 52px;
+  }
+  @media (max-width: 860px) { .costs-grid { grid-template-columns: 1fr; } }
+  .cost-card {
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 36px 32px;
+    transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.25s ease;
+  }
+  .cost-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 36px rgba(19,42,78,0.10);
+  }
+  .cost-icon {
+    font-size: 2.2rem;
+    margin-bottom: 14px;
+    line-height: 1;
+  }
+  .cost-card h4 {
+    font-size: 1.2rem;
+    color: var(--navy-deep);
+    margin-bottom: 10px;
+  }
+  .cost-card p {
+    font-size: 0.95rem;
+    color: #3B4A3D;
+    margin: 0;
+    line-height: 1.65;
+  }
+  .cost-card p strong {
+    color: var(--navy-deep);
+  }
