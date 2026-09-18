@@ -546,11 +546,6 @@
     justify-content: center;
     gap: 20px;
     color: var(--navy-deep);
-    transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.25s ease;
-  }
-  .counter-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 16px 40px rgba(19,42,78,0.15);
   }
   .counter-card .count-num {
     font-family: 'Fraunces', serif;
@@ -600,11 +595,6 @@
     border-radius: 18px;
     padding: 32px 28px;
     text-align: center;
-    transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.25s ease;
-  }
-  .glance-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 14px 36px rgba(19,42,78,0.10);
   }
   .glance-icon {
     width: 52px;
@@ -876,11 +866,6 @@
     border: 1px solid var(--line);
     border-radius: 18px;
     padding: 36px 32px;
-    transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.25s ease;
-  }
-  .cost-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 14px 36px rgba(19,42,78,0.10);
   }
   .cost-icon {
     font-size: 2.2rem;

@@ -1,38 +1,13 @@
 # Kendal House — Christian Accommodation & Ministry Roles | Christchurch, NZ
 # Website: https://kendalhouse.nz/
 
+# Kendal House — Christian Student Accommodation & Ministry Opportunities
+# Christchurch, New Zealand
+# https://kendalhouse.nz/
+
 User-agent: *
 Allow: /
 
-# Explicit rules for Search Engine Crawlers
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: DuckDuckBot
-Allow: /
-
-User-agent: Applebot
-Allow: /
-
-# AI Search & Discovery Crawlers
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-# Disallow system directories & non-public assets
 Disallow: /.git/
-Disallow: /*.json$
 
-# XML Sitemap
 Sitemap: https://kendalhouse.nz/sitemap.xml
