@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <rect width="32" height="32" rx="16" fill="#D9812E"/>
-  <path d="M11 8V24M11 16L21 8M13.5 17L21 24" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Kendal House">
+  <title>Kendal House</title>
+  <!-- Option 3: architectural K with a green roofline -->
+  <path fill="#70D44B" d="M4 27 31.5 4 48 17.8V10h9v15.4l3 2.6v6L31.5 13.5 12 30v29H4z"/>
+  <path fill="#292D2F" d="M22 34h8v8.6L43 29h12L39 45l17 14H43L30 48v11h-8z"/>
 </svg>
